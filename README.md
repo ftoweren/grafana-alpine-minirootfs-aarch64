@@ -18,7 +18,7 @@ https://github.com/armbian/community/releases/download/25.11.0-trunk.472/Armbian
 docker pull ftoweren/grafana-alpine-minirootfs-aarch64:202512-01
 ```
 
-### Run Container (Depends on Your Docker bridge/macvlan)
+### Run Container
 ```bash
 docker run -itd --name grafana-alpinemrfs-aarch64 \
 	--hostname grafana-alpinemrfs-aarch64 \
